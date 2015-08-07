@@ -355,17 +355,13 @@ var round = candidates.append("circle")
 
     
       label.filter(function(label){
-        return label.name === "Elizabeth May";
-      }).transition().duration(speed).ease('linear').attr("transform", function(d) {return "translate(" + (x(d.values[week].week) + 20) + "," + (y(d.values[week].rank) - 12) + ")"; })
+        return label.name === "Climate Change";
+      }).transition().duration(speed).ease('linear').attr("transform", function(d) {return "translate(" + (x(d.values[week].week) + 20) + "," + (y(d.values[week].rank) - 10) + ")"; })
 
       label.filter(function(label){
-        return label.name === "Thomas Mulcair";
-      }).transition().duration(speed).ease('linear').attr("transform", function(d) {return "translate(" + (x(d.values[week].week) + 20) + "," + (y(d.values[week].rank) + 12) + ")"; })
+        return label.name === "Foreign Policy";
+      }).transition().duration(speed).ease('linear').attr("transform", function(d) {return "translate(" + (x(d.values[week].week) + 20) + "," + (y(d.values[week].rank) + 10) + ")"; })
 
-      label.filter(function(label){
-        return label.name === "Justin Trudeau";
-      }).transition().duration(speed).ease('linear').attr("transform", function(d) {return "translate(" + (x(d.values[week].week) + 20) + "," + (y(d.values[week].rank) ) + ")"; })
-      
 
     
         ranking.transition()
